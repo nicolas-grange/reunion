@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/reunion/static/css/main.917b3462.css",
+    "main.js": "/reunion/static/js/main.d6d136b5.js",
+    "static/js/787.74de9c21.chunk.js": "/reunion/static/js/787.74de9c21.chunk.js",
+    "static/media/hike.svg": "/reunion/static/media/hike.38b53d8b5f9a35fcda80313261a5c9f4.svg",
+    "index.html": "/reunion/index.html",
+    "static/media/time.svg": "/reunion/static/media/time.046dbc1dff0528f4d7938a9d17c4a707.svg",
+    "static/media/camera.svg": "/reunion/static/media/camera.55ae859020a67c5d03dc89d589ed8eee.svg",
+    "main.917b3462.css.map": "/reunion/static/css/main.917b3462.css.map",
+    "main.d6d136b5.js.map": "/reunion/static/js/main.d6d136b5.js.map",
+    "787.74de9c21.chunk.js.map": "/reunion/static/js/787.74de9c21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.917b3462.css",
+    "static/js/main.d6d136b5.js"
+  ]
+}
