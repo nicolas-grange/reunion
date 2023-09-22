@@ -43,7 +43,8 @@ const selectHike = (map, hikes, hike, navigate) => {
       essential: true
     }
   );
-  document.getElementById(hike.id).classList.add("selected")
+  document.getElementById(hike.id).classList.add("selected");
+  scrollTop();
 };
 const selectVisit = (map, visits, visit, navigate) => {
   clean(map);
@@ -57,7 +58,8 @@ const selectVisit = (map, visits, visit, navigate) => {
       essential: true
     }
   );
-  document.getElementById(visit.id).classList.add("selected")
+  document.getElementById(visit.id).classList.add("selected");
+  scrollTop();
 };
 const highlightMarker = (map, markerId, center) => {
   if (map && map.current) {
@@ -141,6 +143,12 @@ const addVisits = (map, visits, navigate) => {
       marker.getElement().classList.add("selected");
       navigate("/reunion/visits/" + visit.id);
     });
+  });
+};
+const scrollTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
   });
 };
 export const mapActions = {
