@@ -94,6 +94,10 @@ const clean = (map) => {
   Array.from(map.current.getContainer()
     .getElementsByClassName('mapboxgl-marker'))
     .forEach(marker => marker.remove());
+  Array.from(map.current.getContainer()
+    .getElementsByClassName('mapboxgl-popup'))
+    .forEach(popup => popup.remove());
+
   if(map && map.current.loaded()) {
     const sources = map.current.getStyle().sources;
     Object.keys(sources)
@@ -118,14 +122,29 @@ const addHikes = (map, hikes, navigate) => {
     const marker = new mapboxgl.Marker({ color: CSS_PRIMARY_COLOR})
       .setLngLat([hike.position.longitude, hike.position.latitude])
       .addTo(map.current);
-    marker.getElement().setAttribute("id", hike.id);
-    marker.getElement().addEventListener('click', (e) => {
+    const markerElement = marker.getElement();
+    markerElement.setAttribute("id", hike.id);
+    markerElement.addEventListener('click', (e) => {
       Array.from(map.current.getContainer()
         .getElementsByClassName('mapboxgl-marker'))
         .filter(marker => marker.id !== hike.id)
         .forEach(marker => marker.classList.remove("selected"));
-      marker.getElement().classList.add("selected");
+      markerElement.classList.add("selected");
       navigate("/reunion/hikes/" + hike.id);
+    });
+    const popup = new mapboxgl.Popup({
+      offset: [0, -30],
+      closeButton: false,
+      closeOnClick: false
+    });
+    markerElement.addEventListener("mouseenter", () => {
+      popup
+        .setHTML("<p>" + hike.title + "</p>")
+        .setLngLat([hike.position.longitude, hike.position.latitude])
+        .addTo(map.current);
+    });
+    markerElement.addEventListener("mouseleave", () => {
+      popup.remove();
     });
   });
 };
@@ -134,14 +153,29 @@ const addVisits = (map, visits, navigate) => {
     const marker = new mapboxgl.Marker({ color: CSS_PRIMARY_COLOR})
       .setLngLat([visit.position.longitude, visit.position.latitude])
       .addTo(map.current);
-    marker.getElement().setAttribute("id", visit.id);
-    marker.getElement().addEventListener('click', (e) => {
+    const markerElement = marker.getElement();
+    markerElement.setAttribute("id", visit.id);
+    markerElement.addEventListener('click', (e) => {
       Array.from(map.current.getContainer()
         .getElementsByClassName('mapboxgl-marker'))
         .filter(marker => marker.id !== visit.id)
         .forEach(marker => marker.classList.remove("selected"));
       marker.getElement().classList.add("selected");
       navigate("/reunion/visits/" + visit.id);
+    });
+    const popup = new mapboxgl.Popup({
+      offset: [0, -30],
+      closeButton: false,
+      closeOnClick: false
+    });
+    markerElement.addEventListener("mouseenter", () => {
+      popup
+        .setHTML("<p>" + visit.title + "</p>")
+        .setLngLat([visit.position.longitude, visit.position.latitude])
+        .addTo(map.current);
+    });
+    markerElement.addEventListener("mouseleave", () => {
+      popup.remove();
     });
   });
 };

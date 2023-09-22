@@ -2,12 +2,31 @@
   width: 100%;
   height: 100%;
 
-  .mapboxgl-marker.selected {
-    path {
-      fill: var(--primary-color);
+  .mapboxgl-marker {
+    padding-top: 1rem;
+
+    &.selected,
+    &:hover {
+      circle {
+        fill: var(--secondary-color);
+      }
     }
-    circle {
-      fill: var(--secondary-color);
+  }
+
+  .mapboxgl-popup {
+    .mapboxgl-popup-content {
+      background-color: var(--primary-color);
+      color: var(--light-color);
+      padding: .5rem;
+
+      p {
+        font-size: .75rem;
+        margin: 0;
+      }
+    }
+
+    .mapboxgl-popup-tip {
+      display: none;
     }
   }
 }
