@@ -1,0 +1,52 @@
+.main-nav-bar {
+  height: 4rem;
+  font-weight: 600;
+  padding: 0rem 1rem;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  ul {
+    padding: 0;
+    display: flex;
+
+    li {
+      list-style-type: none;
+
+      a {
+        color : var(--light-color);
+        border: none;
+        background: none;
+        text-decoration: none;
+        margin-right: 1.5rem;
+        cursor: pointer;
+        transition: color 300ms;
+
+        svg {
+          transition: fill 300ms;
+          fill: var(--light-color);
+          width: 2rem;
+          height: 100%;
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: .5rem;
+        }
+
+        &:hover,
+        &.active {
+          color: var(--secondary-color);
+
+          svg {
+            fill: var(--secondary-color);
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    justify-content: left;
+    padding: 0 2rem;
+  }
+}

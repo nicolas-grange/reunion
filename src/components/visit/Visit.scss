@@ -1,0 +1,34 @@
+.visit {
+  &-content {
+    padding: 2rem 1rem 1rem;
+
+    .visit-title {
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: var(--primary-color);
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+
+    .visit-description {
+      line-height: 1.5;
+    }
+
+    @media screen and (min-width: 600px) {
+      padding: 2.5rem 2rem 2rem;
+
+      .visit-title {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+      }
+    }
+
+    @media screen and (min-width: 1000px) {
+      padding: 3rem 2rem 2rem;
+
+      .visit-title {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.hike {
+  &-content {
+    padding: 2rem 1rem 1rem;
+
+    .hike-title {
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: var(--primary-color);
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+
+    .hike-numbers,
+    .hike-description {
+      line-height: 1.5;
+    }
+
+    .hike-numbers {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      & > div {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-bottom: 1rem;
+        color: var(--primary-color);
+
+        .hike-numbers-title {
+          opacity: .6
+        }
+
+        .hike-numbers-content {
+          font-weight: 600;
+        }
+      }
+    }
+
+    @media screen and (min-width: 600px) {
+      padding: 2.5rem 2rem 2rem;
+
+      .hike-title {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .hike-numbers {
+        flex-wrap: nowrap;
+        margin: 1rem 0;
+
+        & > div {
+          width: inherit;
+          margin-right: 2.5rem;
+        }
+      }
+    }
+
+    @media screen and (min-width: 1000px) {
+      padding: 3rem 2rem 2rem;
+
+      .hike-title {
+        font-size: 2.5rem;
+      }
+
+      .hike-numbers {
+        margin: 1rem 0 1.5rem;
+      }
+    }
+  }
+}

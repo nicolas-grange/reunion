@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "./styles/normalize.scss";
+@import "./styles/variables.scss";
+
+.app {
+  color: var(--dark-text-color);
+  font-family: 'Noto Sans Display', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+      "header"
+      "map"
+      "main";
+
+  .header {
+    grid-area: header;
+  }
+
+  .main {
+    grid-area: main;
+  }
+
+  .map-container {
+    grid-area: map;
+    height: 480px;
+    min-height: 480px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    grid-template-columns: 65% 35%;
+    grid-template-areas:
+      "map header"
+      "map main";
+
+    .map-container {
+      height: 100vh;
+      min-height: 100vh;
+      width: 65%;
+      position: fixed;
+    }
+  }
+}
