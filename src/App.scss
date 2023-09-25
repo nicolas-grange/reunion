@@ -28,7 +28,7 @@
   }
 
   @media screen and (min-width: 1000px) {
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 60% 40%;
     grid-template-areas:
       "map header"
       "map main";
@@ -36,7 +36,7 @@
     .map-container {
       height: 100vh;
       min-height: 100vh;
-      width: 65%;
+      width: 60%;
       position: fixed;
     }
   }
