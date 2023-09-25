@@ -78,11 +78,6 @@ export const h6_maido_glaciere = {
     },
     {
       "src": process.env.PUBLIC_URL + "/images/hikes/6_maido_glaciere/14-min.jpg",
-      "width": 4,
-      "height": 5
-    },
-    {
-      "src": process.env.PUBLIC_URL + "/images/hikes/6_maido_glaciere/15-min.jpg",
       "width": 3,
       "height": 2
     }
