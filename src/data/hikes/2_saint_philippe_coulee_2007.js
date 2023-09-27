@@ -5,7 +5,11 @@ export const h2_saint_philippe_coulee_2007 = {
   "distance" : "7.9km",
   "positiveElevation": "550m",
   "duration":  "4h",
-  "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fugiat hic quam? Ad corporis dolore dolorem dolores doloribus enim, error excepturi libero molestias nesciunt quam recusandae sit tenetur unde voluptatem.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat minus veritatis voluptatem! A corporis cum neque perspiciatis provident quod recusandae velit? Beatae esse excepturi itaque nam nisi omnis soluta voluptatem.</p>,<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus perspiciatis quas qui quia. Asperiores consequuntur ducimus officia optio quam, recusandae similique! Explicabo facere fugiat nam neque perspiciatis. Dolor, illo!</p>\n",
+  "description": "".concat(
+    "<p>Sur la route des laves, on peut observer plusieurs coulées datant de la grosse éruption de 2007. Le paysage est assez caractéristique car on distingue bien les démarcations avec la végétation environnante.</p>",
+    "<p>On peut se garer sur le bord de la route et commencer à marcher sur la coulée à pied. Il faut faire très attention car la roche est friable et le risque de chute important (3 chutes lors de cette sortie). Il n'y a pas vraiment de sentier balisé.</p>",
+    "<p>Tout le long de la randonnée, on se rend bien compte des premières espèces qui colonisent le milieu: les fougères et lichens.</p>"
+  ),
   "position": {
     "longitude": 55.79584501683712,
     "latitude": -21.282050376757979

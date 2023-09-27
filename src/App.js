@@ -1,6 +1,6 @@
 import './App.scss';
-import {useRef} from "react";
-import {Route, Routes} from "react-router-dom";
+import {useEffect, useRef} from "react";
+import {Route, Routes, useNavigate} from "react-router-dom";
 import NavBar from "./components/nav-bar/NavBar";
 import Map from "./components/map/Map";
 import Hikes from "./components/hike/Hikes";
@@ -10,7 +10,12 @@ import Visit from "./components/visit/Visit";
 
 function App() {
 
+  const navigate = useNavigate();
   const map= useRef(null);
+
+  useEffect(() => {
+    navigate(process.env.PUBLIC_URL + "/hikes");
+  }, []);
 
   return (
     <div className="app">

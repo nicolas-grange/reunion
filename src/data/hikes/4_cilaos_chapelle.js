@@ -5,7 +5,12 @@ export const h4_cilaos_chapelle = {
   "distance" : "8km",
   "positiveElevation": "700m",
   "duration":  "4h30",
-  "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fugiat hic quam? Ad corporis dolore dolorem dolores doloribus enim, error excepturi libero molestias nesciunt quam recusandae sit tenetur unde voluptatem.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat minus veritatis voluptatem! A corporis cum neque perspiciatis provident quod recusandae velit? Beatae esse excepturi itaque nam nisi omnis soluta voluptatem.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus perspiciatis quas qui quia. Asperiores consequuntur ducimus officia optio quam, recusandae similique! Explicabo facere fugiat nam neque perspiciatis. Dolor, illo!</p>\n",
+  "description": "".concat(
+    "<p>Le point de départ de cette randonnée se situe à Cilaos (après avoir fait la route des 400 virages).</p>",
+    "<p>Plutôt facile sur la première partie avec des vues à couper le souffle sur le cirque de Cilaos, le chemin se complique légèrement sur la fin. Le dénivelé alterne tout au long du sentier.</p>",
+    "<p>A l'arrivée, on peut découvrir différents bassins où il est agréable de se reposer. On peut aller jusqu'à la Chapelle (cascade) mais il faudra escalader un petit peu et nager pour aller au bout. En septembre, l'eau était à 8°C.</p>",
+    "<p>D'une manière générale, il faut prendre des chaussures d'eau pour cette randonnée. On n'a pas d'autre choix que de traverser des rivières mais elle en vaut vraiment la peine !</p>"
+  ),
   "position": {
     "longitude": 55.46320466324687,
     "latitude": -21.137478053569794

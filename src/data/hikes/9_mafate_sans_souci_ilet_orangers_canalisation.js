@@ -3,9 +3,13 @@ export const h9_mafate_sans_souci_ilet_orangers_canalisation = {
   "title": "Canalisation des orangers",
   "difficulty": "difficile",
   "distance" : "34.8km",
-  "positiveElevation": "650m",
+  "positiveElevation": "2000m",
   "duration":  "8h00",
-  "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fugiat hic quam? Ad corporis dolore dolorem dolores doloribus enim, error excepturi libero molestias nesciunt quam recusandae sit tenetur unde voluptatem.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat minus veritatis voluptatem! A corporis cum neque perspiciatis provident quod recusandae velit? Beatae esse excepturi itaque nam nisi omnis soluta voluptatem.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus perspiciatis quas qui quia. Asperiores consequuntur ducimus officia optio quam, recusandae similique! Explicabo facere fugiat nam neque perspiciatis. Dolor, illo!</p>\n",
+  "description":  "".concat(
+    "<p>Cette randonnée porte ce nom car elle suit une canalisation permettant d'acheminer l'eau jusqu'à Saint-Paul.</p>",
+    "<p>Le départ se situe dans les hauts de Saint-Paul à Sans-Souci. On emprunte la canalisation des orangers pour rejoindre l'ilet des orangers dans le cirque de mafate.</p>",
+    "<p>On commence par 3 km de montée intense avec une vue sur le Cap la Houssaye et la baie de Saint-Paul. Une fois arrivé au niveau de la canalisation, le chemin est plat pendant environ 15 km avant de finir à nouveau par une montée assez rude. A l'arrivée, on découvre l'ilet avec ses quelques kaz, son école, son épicerie, etc. Un petit village hors du temps loin de la ville.</p>",
+    "<p>Les paysages sont à couper le souffle tout le long de la randonnée. Une vision panoramique de la montagne avec bien sûr une vue surplongeant le cirque de mafate.</p>"),
   "position": {
     "longitude": 55.34519316628575,
     "latitude": -20.97939628176391

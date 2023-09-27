@@ -5,7 +5,10 @@ export const h7_vincendo_cap_jaune = {
   "distance" : "4.3km",
   "positiveElevation": "128m",
   "duration":  "1h15",
-  "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fugiat hic quam? Ad corporis dolore dolorem dolores doloribus enim, error excepturi libero molestias nesciunt quam recusandae sit tenetur unde voluptatem.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat minus veritatis voluptatem! A corporis cum neque perspiciatis provident quod recusandae velit? Beatae esse excepturi itaque nam nisi omnis soluta voluptatem.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus perspiciatis quas qui quia. Asperiores consequuntur ducimus officia optio quam, recusandae similique! Explicabo facere fugiat nam neque perspiciatis. Dolor, illo!</p>\n",
+  "description": "".concat(
+    "<p>Ce circuit permet de découvrir une partie de la côte sauvage entre Vincendo et Langevin. Il a la particularité de rencontrer des terres rouges, jaunes et ocre qui n'ont rien à voir avec celles habituellement observées lors des randonnées.</p>",
+    "<p>On peut aussi y observer quelques pécheurs, baleines (si c'est la saison) et évidemment les vagues qui se brisent sur la roche volcanique. A l'arrivée, nous avons une belle vue sur le Cap jaune. Un sentier (aujourd'hui fermé car trop dangereux) permet de déscendre au niveau de la mer.</p>"
+  ),
   "position": {
     "longitude": 55.67513479851186,
     "latitude": -21.378375040367246
