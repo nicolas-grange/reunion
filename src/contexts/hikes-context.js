@@ -8,6 +8,10 @@ import {h6_maido_glaciere} from "../data/hikes/6_maido_glaciere";
 import {h7_vincendo_cap_jaune} from "../data/hikes/7_vincendo_cap_jaune";
 import {h8_grand_galet_cap_blanc} from "../data/hikes/8_grand_galet_cap_blanc";
 import {h9_mafate_sans_souci_ilet_orangers_canalisation} from "../data/hikes/9_mafate_sans_souci_ilet_orangers_canalisation";
+import {h10_mafate_maido_roche_plate} from "../data/hikes/10_mafate_maido_roche_plate";
+import {h11_tampon_grand_bassin} from "../data/hikes/11_tampon_grand_bassin";
+import {h12_etang_sale} from "../data/hikes/12_etang_sale";
+import {h13_entre_deux_sentier_jacky_inard} from "../data/hikes/13_entre_deux_sentier_jacky_inard";
 
 const hikes = [
   h1_fournaise_dolomieu,
@@ -18,7 +22,11 @@ const hikes = [
   h6_maido_glaciere,
   h7_vincendo_cap_jaune,
   h8_grand_galet_cap_blanc,
-  h9_mafate_sans_souci_ilet_orangers_canalisation
+  h9_mafate_sans_souci_ilet_orangers_canalisation,
+  h10_mafate_maido_roche_plate,
+  h11_tampon_grand_bassin,
+  h12_etang_sale,
+  h13_entre_deux_sentier_jacky_inard
 ];
 
 const getHikeById = (hikeId) => {

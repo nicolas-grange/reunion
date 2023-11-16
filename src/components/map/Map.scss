@@ -7,6 +7,8 @@
 
     &.selected,
     &:hover {
+      z-index: 2;
+
       circle {
         fill: var(--secondary-color);
       }

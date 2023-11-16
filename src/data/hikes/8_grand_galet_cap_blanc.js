@@ -5,11 +5,7 @@ export const h8_grand_galet_cap_blanc = {
   "distance" : "12.9km",
   "positiveElevation": "730m",
   "duration":  "3h40",
-  "description": "".concat(
-    "<p>Départ devant la cascade Grand Galet le long de la rivière Langevin située dans le sud sauvage de la Réunion. C’est certainement la cascade la plus célèbre de l’ile et l’une des plus fréquentées. Il y a d'ailleurs différents bassins à proximité.</p>",
-    "<p>Nous suivons le chemin pour remonter la rivière et traversons champs, forêts, etc. Nous avons vu pas mal de fleurs, arbres fruitiers tout le long du sentier. Nous arrivons ensuite à l'air de bivouac du Cap Blanc, un endroit très calme au bord de la rivière où le repos y est très appréciable.</p>",
-    "<p>La randonnée continue pour atteindra la plaine des sables (proche du volcan) mais il faut encore compter 5h de marche juste pour l'aller. Nous en avons fait qu'une partie.</p>"
-  ),
+  "description": "",
   "position": {
     "longitude": 55.640851305797696,
     "latitude": -21.318068588152528

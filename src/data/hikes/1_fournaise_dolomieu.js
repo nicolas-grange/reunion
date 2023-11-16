@@ -5,11 +5,7 @@ export const h1_fournaise_dolomieu = {
   "distance" : "12.3km",
   "positiveElevation": "500m",
   "duration":  "4h30",
-  "description": "".concat(
-    "<p>La randonnée qui mène au cratère principal du Piton de la Fournaise : le cratère Dolomieu !</p>",
-    "<p>Il faut emprunter la route du volcan très abîmée par les conditions climatiques (allure ~5-10 km/h) pour arriver au Pas de Bellecombe. Une fois au parking, on déscend dans l'enclos. Une descente assez raide mais facilitée par les marches existantes. S'en suit une longue marche dans un univers volcanique désert pour arriver au sommet.</p>",
-    "<p>Les sentiers sont balisés à l'aide de marques blanches au sol qu'il faut suivre attentivement. Le brouillard peut très vite tomber et la visibilité se réduire à quelques mètres. Il faut également bien se couvrir. En septembre, il faisait 0°C.</p>"
-  ),
+  "description": "",
   "position": {
     "longitude": 55.684633757919073,
     "latitude": -21.224994258955121

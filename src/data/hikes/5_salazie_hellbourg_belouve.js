@@ -5,11 +5,7 @@ export const h5_salazie_hellbourg_belouve = {
   "distance" : "7.4km",
   "positiveElevation": "550m",
   "duration":  "2h45",
-  "description": "".concat(
-    "<p>Le départ se situe à Hell Bourg au centre du cirque de Salazie. Ce petit village de 2000 habitants a été classé plus beau village de France.</p>",
-    "<p>On s'éloigne doucement du centre ville en empruntant un sentier de montagne magnifique. On monte petit à petit avec une vue splendide sur le cirque de Salazie. On peut observer une végétation très luxuriante carcatéristique de l'est de l'île. A l'arrivée, on peut profiter de la vue, pique-niquer à des endroits prévus ou même se restaurer au gîte de Bélouve.</p>",
-    "<p>Le gîte peut servir d'étape car le sentier continue encore plus loin.</p>"
-  ),
+  "description": "",
   "position": {
     "longitude": 55.524866,
     "latitude": -21.065329

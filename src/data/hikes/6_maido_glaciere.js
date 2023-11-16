@@ -5,11 +5,7 @@ export const h6_maido_glaciere = {
   "distance" : "11.2km",
   "positiveElevation": "420m",
   "duration":  "2h45",
-  "description": "".concat(
-    "<p>Randonnée plutôt familiale et facile d'accès qui prend son départ au Maïdo, point de vue panoramique sur les 3 cirques de l'île. Un point de vue magnifique mais il faut arriver tôt car la brume arrive rapidement.</p>",
-    "<p>Le départ se situe au parking. On emprunte un chemin d'abord goudronné qui devient de plus en plus caillouteux. On a une vue dégagée sur l'océan du début du sentier à l'arrivée à la glacière.</p>",
-    "<p>Ce lieu porte ce nom car la grotte à l'arrivée servait de réserve de glace à l'époque de Madame Desbassyns qui envoyait ses esclaves en récupérer pour qu'elle puisse offrir des sorbets à ses invités.</p>"
-  ),
+  "description": "",
   "position": {
     "longitude": 55.38665,
     "latitude": -21.07173

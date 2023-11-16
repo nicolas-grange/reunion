@@ -5,10 +5,7 @@ export const h3_saint_philippe_plage_tremblet = {
   "distance" : "2.5km",
   "positiveElevation": "115m",
   "duration":  "1h",
-  "description": "".concat(
-    "<p>Petite balade très sympathique ! On descend sans aucune difficulté jusqu'à la plage volcanique du Tremblet.</p>",
-    "<p>La plage du Tremblet est une plage de sable noir qui est probablement l'une des plages les plus récentes de France. Elle a été créé par l'éruption de 2007.</p>"
-  ),
+  "description": "",
   "position": {
     "longitude": 55.800376776605844,
     "latitude": -21.29991950467229
