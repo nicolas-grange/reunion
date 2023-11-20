@@ -12,6 +12,8 @@ import {h10_mafate_maido_roche_plate} from "../data/hikes/10_mafate_maido_roche_
 import {h11_tampon_grand_bassin} from "../data/hikes/11_tampon_grand_bassin";
 import {h12_etang_sale} from "../data/hikes/12_etang_sale";
 import {h13_entre_deux_sentier_jacky_inard} from "../data/hikes/13_entre_deux_sentier_jacky_inard";
+import {h14_cilaos_bras_rouge_bassin_alfred} from "../data/hikes/14_cilaos_bras_rouge_bassin_alfred";
+import {h15_cilaos_bras_sec_puy_maillot_cilaos_centre} from "../data/hikes/15_cilaos_bras_sec_puy_maillot_cilaos_centre";
 
 const hikes = [
   h1_fournaise_dolomieu,
@@ -26,7 +28,9 @@ const hikes = [
   h10_mafate_maido_roche_plate,
   h11_tampon_grand_bassin,
   h12_etang_sale,
-  h13_entre_deux_sentier_jacky_inard
+  h13_entre_deux_sentier_jacky_inard,
+  h14_cilaos_bras_rouge_bassin_alfred,
+  h15_cilaos_bras_sec_puy_maillot_cilaos_centre
 ];
 
 const getHikeById = (hikeId) => {
