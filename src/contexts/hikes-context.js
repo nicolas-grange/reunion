@@ -14,6 +14,7 @@ import {h12_etang_sale} from "../data/hikes/12_etang_sale";
 import {h13_entre_deux_sentier_jacky_inard} from "../data/hikes/13_entre_deux_sentier_jacky_inard";
 import {h14_cilaos_bras_rouge_bassin_alfred} from "../data/hikes/14_cilaos_bras_rouge_bassin_alfred";
 import {h15_cilaos_bras_sec_puy_maillot_cilaos_centre} from "../data/hikes/15_cilaos_bras_sec_puy_maillot_cilaos_centre";
+import {h16_sainte_rose_anse_cascade_notre_dame_des_laves} from "../data/hikes/16_sainte_rose_anse_cascade_notre_dame_des_laves";
 
 const hikes = [
   h1_fournaise_dolomieu,
@@ -30,7 +31,8 @@ const hikes = [
   h12_etang_sale,
   h13_entre_deux_sentier_jacky_inard,
   h14_cilaos_bras_rouge_bassin_alfred,
-  h15_cilaos_bras_sec_puy_maillot_cilaos_centre
+  h15_cilaos_bras_sec_puy_maillot_cilaos_centre,
+  h16_sainte_rose_anse_cascade_notre_dame_des_laves
 ];
 
 const getHikeById = (hikeId) => {
