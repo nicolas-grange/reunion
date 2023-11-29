@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/reunion/static/css/main.c91548de.css",
-    "main.js": "/reunion/static/js/main.52e768e2.js",
+    "main.css": "/reunion/static/css/main.de3f4f38.css",
+    "main.js": "/reunion/static/js/main.091f5537.js",
     "static/js/787.74de9c21.chunk.js": "/reunion/static/js/787.74de9c21.chunk.js",
     "static/media/hike.svg": "/reunion/static/media/hike.38b53d8b5f9a35fcda80313261a5c9f4.svg",
     "index.html": "/reunion/index.html",
     "static/media/time.svg": "/reunion/static/media/time.046dbc1dff0528f4d7938a9d17c4a707.svg",
+    "static/media/custom-marker-selected.svg": "/reunion/static/media/custom-marker-selected.d356acb3d3e22aa1bbcb6c5cb71bd9af.svg",
+    "static/media/custom-marker.svg": "/reunion/static/media/custom-marker.c3d0b049bd02e9e3bd5c1ceca02f814d.svg",
     "static/media/camera.svg": "/reunion/static/media/camera.55ae859020a67c5d03dc89d589ed8eee.svg",
-    "main.c91548de.css.map": "/reunion/static/css/main.c91548de.css.map",
-    "main.52e768e2.js.map": "/reunion/static/js/main.52e768e2.js.map",
+    "main.de3f4f38.css.map": "/reunion/static/css/main.de3f4f38.css.map",
+    "main.091f5537.js.map": "/reunion/static/js/main.091f5537.js.map",
     "787.74de9c21.chunk.js.map": "/reunion/static/js/787.74de9c21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c91548de.css",
-    "static/js/main.52e768e2.js"
+    "static/css/main.de3f4f38.css",
+    "static/js/main.091f5537.js"
   ]
 }
