@@ -7,11 +7,17 @@ import {ReactComponent as CameraSvg} from '../../assets/camera.svg';
 
 const Visits = ({map}) => {
   const {visits} = useContext(VisitsContext);
-  const {showVisits, highlightMarker, unHighlightMarker} = useContext(MapActionsContext);
+  const {showVisits} = useContext(MapActionsContext);
   const navigate = useNavigate();
 
   useEffect(() => {
-    showVisits(map, visits, navigate);
+    if (map.current.loaded()) {
+      showVisits(map, visits, navigate);;
+    } else {
+      map.current.on("load", async () => {
+        showVisits(map, visits, navigate);;
+      })
+    }
   });
 
   return (
@@ -24,12 +30,6 @@ const Visits = ({map}) => {
               onClick={(e) => {
                 e.preventDefault();
                 navigate(process.env.PUBLIC_URL + "/visits/" + visit.id);
-              }}
-              onMouseOver={(e) => {
-                highlightMarker(map, visit.id, [visit.position.longitude, visit.position.latitude]);
-              }}
-              onMouseLeave={(e) => {
-                unHighlightMarker(map, visit.id);
               }}
             >
               <img src={visit.photos[0].src} alt={visit.photos[0].title}/>

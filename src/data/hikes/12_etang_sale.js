@@ -1,5 +1,5 @@
 export const h12_etang_sale = {
-  "id": "hike-12",
+  "id": 12,
   "title": "Etang Salé",
   "difficulty": "facile",
   "distance" : "12km",

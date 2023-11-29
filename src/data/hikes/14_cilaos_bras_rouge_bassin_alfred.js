@@ -1,5 +1,5 @@
 export const h14_cilaos_bras_rouge_bassin_alfred = {
-  "id": "hike-14",
+  "id": 14,
   "title": "Bras Rouge au bassin Alfred",
   "difficulty": "moyen",
   "distance" : "14.7km",

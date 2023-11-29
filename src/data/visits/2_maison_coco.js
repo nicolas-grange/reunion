@@ -1,5 +1,5 @@
 export const v2_maison_coco = {
-  "id": "visit-2",
+  "id": 2,
   "title": "Maison du coco",
   "subTitle": "Découverte, cuisine, atelier...",
   "description": "",

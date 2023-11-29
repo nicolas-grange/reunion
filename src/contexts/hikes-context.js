@@ -36,7 +36,7 @@ const hikes = [
 ];
 
 const getHikeById = (hikeId) => {
-  return hikes.filter(hike => hike.id === hikeId)[0];
+  return hikes.filter(hike => hike.id == hikeId)[0];
 };
 
 export const hikesContext = {

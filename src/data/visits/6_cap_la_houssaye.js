@@ -1,5 +1,5 @@
 export const v6_cap_la_houssaye = {
-  "id": "visit-6",
+  "id": 6,
   "title": "Cap la Houssaye",
   "subTitle": "Entre Saint Paul et Saint Gilles",
   "description": "",

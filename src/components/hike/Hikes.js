@@ -9,11 +9,17 @@ import {ReactComponent as TimeSvg} from '../../assets/time.svg';
 
 const Hikes = ({map}) => {
   const {hikes} = useContext(HikesContext);
-  const {showHikes, highlightMarker, unHighlightMarker} = useContext(MapActionsContext);
+  const {showHikes} = useContext(MapActionsContext);
   const navigate = useNavigate();
 
   useEffect(() => {
-    showHikes(map, hikes, navigate);
+    if (map.current.loaded()) {
+      showHikes(map, hikes, navigate);
+    } else {
+      map.current.on("load", async () => {
+        showHikes(map, hikes, navigate);
+      })
+    }
   });
 
   return (
@@ -26,12 +32,6 @@ const Hikes = ({map}) => {
               onClick={(e) => {
                 e.preventDefault();
                 navigate(process.env.PUBLIC_URL + "/hikes/" + hike.id);
-              }}
-              onMouseOver={(e) => {
-                highlightMarker(map, hike.id, [hike.position.longitude, hike.position.latitude]);
-              }}
-              onMouseLeave={(e) => {
-                unHighlightMarker(map, hike.id);
               }}
             >
               <img src={hike.photos[0].src} alt={hike.photos[0].title}/>

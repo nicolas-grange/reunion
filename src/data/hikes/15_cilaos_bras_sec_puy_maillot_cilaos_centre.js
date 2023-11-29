@@ -1,5 +1,5 @@
 export const h15_cilaos_bras_sec_puy_maillot_cilaos_centre = {
-  "id": "hike-15",
+  "id": 15,
   "title": "Bras Sec à Cilaos",
   "difficulty": "facile",
   "distance" : "6.20km",

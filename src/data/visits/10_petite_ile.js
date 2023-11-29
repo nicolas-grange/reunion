@@ -1,5 +1,5 @@
 export const v10_petite_ile = {
-  "id": "visit-10",
+  "id": 10,
   "title": "Petite-Ile",
   "subTitle": "Lé chez nous !",
   "description": "",

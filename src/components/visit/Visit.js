@@ -14,7 +14,7 @@ const Visit = ({map}) => {
   const visit = getVisitById(visitId);
 
   useEffect(() => {
-    if(!visit) {
+    if (!visit) {
       return;
     }
     if (map.current.loaded()) {

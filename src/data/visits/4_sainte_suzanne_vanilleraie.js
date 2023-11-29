@@ -1,5 +1,5 @@
 export const v4_sainte_suzanne_vanilleraie = {
-  "id": "visit-4",
+  "id": 4,
   "title": "Vanilleraie - Sainte-Suzanne",
   "subTitle": "Domaine du Grand Hazier",
   "description": "",

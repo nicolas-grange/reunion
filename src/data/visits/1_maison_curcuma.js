@@ -1,5 +1,5 @@
 export const v1_maison_curcuma = {
-  "id": "visit-1",
+  "id": 1,
   "title": "Maison du curcuma",
   "subTitle": "Culture, fabrication, séchage...",
   "description": "",

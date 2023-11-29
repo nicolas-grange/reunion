@@ -1,5 +1,5 @@
 export const v3_far_far_kreol = {
-  "id": "visit-3",
+  "id": 3,
   "title": "Far far kreol",
   "subTitle": "Marché, cuisine, rhum arrangé...",
   "description": "",

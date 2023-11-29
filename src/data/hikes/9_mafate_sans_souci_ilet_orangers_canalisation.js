@@ -1,5 +1,5 @@
 export const h9_mafate_sans_souci_ilet_orangers_canalisation = {
-  "id": "hike-9",
+  "id": 9,
   "title": "Canalisation des orangers",
   "difficulty": "difficile",
   "distance" : "34.8km",

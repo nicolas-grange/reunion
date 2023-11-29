@@ -1,5 +1,5 @@
 export const h16_sainte_rose_anse_cascade_notre_dame_des_laves = {
-  "id": "hike-16",
+  "id": 16,
   "title": "Anse des Cascades à Notre Dame des laves",
   "difficulty": "moyen",
   "distance" : "19.8km",

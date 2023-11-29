@@ -1,5 +1,5 @@
 export const h2_saint_philippe_coulee_2007 = {
-  "id": "hike-2",
+  "id": 2,
   "title": "Coulée de lave 2007",
   "difficulty": "moyen",
   "distance" : "7.9km",

@@ -1,5 +1,5 @@
 export const h7_vincendo_cap_jaune = {
-  "id": "hike-7",
+  "id": 7,
   "title": "Sentier du cap jaune",
   "difficulty": "très facile",
   "distance" : "4.3km",

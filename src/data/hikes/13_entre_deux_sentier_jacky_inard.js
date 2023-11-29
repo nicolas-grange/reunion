@@ -1,5 +1,5 @@
 export const h13_entre_deux_sentier_jacky_inard = {
-  "id": "hike-13",
+  "id": 13,
   "title": "Sentier Jacky Inard",
   "difficulty": "très difficile",
   "distance" : "21km",

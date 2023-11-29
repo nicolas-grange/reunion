@@ -1,5 +1,5 @@
 export const v7_saint_gilles = {
-  "id": "visit-7",
+  "id": 7,
   "title": "Saint-Gilles les Bains",
   "subTitle": "Farniente, plage, lagon...",
   "description": "",

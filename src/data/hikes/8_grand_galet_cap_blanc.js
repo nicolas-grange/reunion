@@ -1,5 +1,5 @@
 export const h8_grand_galet_cap_blanc = {
-  "id": "hike-8",
+  "id": 8,
   "title": "De Grand Galet à Cap Blanc",
   "difficulty": "facile",
   "distance" : "12.9km",

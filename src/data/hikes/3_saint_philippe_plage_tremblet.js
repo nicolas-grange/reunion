@@ -1,5 +1,5 @@
 export const h3_saint_philippe_plage_tremblet = {
-  "id": "hike-3",
+  "id": 3,
   "title": "Plage du Tremblet",
   "difficulty": "très facile",
   "distance" : "2.5km",

@@ -1,5 +1,5 @@
 export const h10_mafate_maido_roche_plate = {
-  "id": "hike-10",
+  "id": 10,
   "title": "Maïdo à Roche plate",
   "difficulty": "moyen",
   "distance" : "15km",

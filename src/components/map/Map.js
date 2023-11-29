@@ -3,6 +3,8 @@ import {useContext, useEffect, useRef} from "react";
 import mapboxgl from "mapbox-gl";
 import mapBoxStyle from "./mapboxstyle.json";
 import {MapActionsContext} from "../../contexts/map-actions-context";
+import customMarkerTemplate from "../../assets/custom-marker.svg";
+import customMarkerSelectedTemplate from "../../assets/custom-marker-selected.svg";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
@@ -21,6 +23,17 @@ const Map = ({map}) => {
     });
     map.current.on('load', async () => {
       map.current.addControl(new mapboxgl.NavigationControl({}));
+
+      const width = 25;
+      const height = 50;
+
+      const customMarkerImg = new Image(width, height);
+      customMarkerImg.onload = () => map.current.addImage('custom-marker', customMarkerImg);
+      customMarkerImg.src = customMarkerTemplate;
+
+      const customMarkerSelected = new Image(width, height);
+      customMarkerSelected.onload = () => map.current.addImage('custom-marker-selected', customMarkerSelected);
+      customMarkerSelected.src = customMarkerSelectedTemplate;
     });
   });
 

@@ -28,7 +28,7 @@ const visits = [
 ];
 
 const getVisitById = (visitId) => {
-  return visits.filter(visit => visit.id === visitId)[0];
+  return visits.filter(visit => visit.id == visitId)[0];
 };
 
 export const visitsContext = {

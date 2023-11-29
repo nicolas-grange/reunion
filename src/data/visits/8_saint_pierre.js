@@ -1,5 +1,5 @@
 export const v8_saint_pierre = {
-  "id": "visit-8",
+  "id": 8,
   "title": "Saint-Pierre",
   "subTitle": "La capitale du sud",
   "description": "",

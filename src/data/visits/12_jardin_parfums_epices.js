@@ -1,5 +1,5 @@
 export const v12_jardin_parfum_epices = {
-  "id": "visit-12",
+  "id": 12,
   "title": "Jardin des parfums et des épices",
   "subTitle": "Palmistes, manguiers, cacao...",
   "description": "",

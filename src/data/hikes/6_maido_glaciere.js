@@ -1,5 +1,5 @@
 export const h6_maido_glaciere = {
-  "id": "hike-6",
+  "id": 6,
   "title": "Maïdo à la glacière",
   "difficulty": "facile",
   "distance" : "11.2km",

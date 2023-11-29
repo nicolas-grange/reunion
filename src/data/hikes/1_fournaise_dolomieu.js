@@ -1,5 +1,5 @@
 export const h1_fournaise_dolomieu = {
-  "id": "hike-1",
+  "id": 1,
   "title": "Cratère Dolomieu",
   "difficulty": "moyen",
   "distance" : "12.3km",

@@ -1,5 +1,5 @@
 export const h5_salazie_hellbourg_belouve = {
-  "id": "hike-5",
+  "id": 5,
   "title": "Salazie - de Hellbourg à Belouve",
   "difficulty": "moyen",
   "distance" : "7.4km",

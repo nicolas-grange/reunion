@@ -14,7 +14,7 @@ const Hike = ({map}) => {
   const hike = getHikeById(hikeId);
 
   useEffect(() => {
-    if(!hike) {
+    if (!hike) {
       return;
     }
     if (map.current.loaded()) {

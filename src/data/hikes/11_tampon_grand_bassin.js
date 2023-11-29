@@ -1,5 +1,5 @@
 export const h11_tampon_grand_bassin = {
-  "id": "hike-11",
+  "id": 11,
   "title": "Grand Bassin",
   "difficulty": "moyen",
   "distance" : "17.7km",

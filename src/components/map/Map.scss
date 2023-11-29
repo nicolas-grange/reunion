@@ -2,19 +2,6 @@
   width: 100%;
   height: 100%;
 
-  .mapboxgl-marker {
-    padding-top: 1rem;
-
-    &.selected,
-    &:hover {
-      z-index: 2;
-
-      circle {
-        fill: var(--secondary-color);
-      }
-    }
-  }
-
   .mapboxgl-popup {
     .mapboxgl-popup-content {
       background-color: var(--primary-color);

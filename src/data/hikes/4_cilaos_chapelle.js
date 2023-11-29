@@ -1,5 +1,5 @@
 export const h4_cilaos_chapelle = {
-  "id": "hike-4",
+  "id": 4,
   "title": "Cilaos - La chapelle",
   "difficulty": "moyen",
   "distance" : "8km",
