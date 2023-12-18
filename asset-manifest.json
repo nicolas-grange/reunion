@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reunion/static/css/main.de3f4f38.css",
-    "main.js": "/reunion/static/js/main.091f5537.js",
+    "main.css": "/reunion/static/css/main.ccdd6a1e.css",
+    "main.js": "/reunion/static/js/main.afe5015d.js",
     "static/js/787.74de9c21.chunk.js": "/reunion/static/js/787.74de9c21.chunk.js",
     "static/media/hike.svg": "/reunion/static/media/hike.38b53d8b5f9a35fcda80313261a5c9f4.svg",
     "index.html": "/reunion/index.html",
@@ -9,12 +9,12 @@
     "static/media/custom-marker-selected.svg": "/reunion/static/media/custom-marker-selected.d356acb3d3e22aa1bbcb6c5cb71bd9af.svg",
     "static/media/custom-marker.svg": "/reunion/static/media/custom-marker.c3d0b049bd02e9e3bd5c1ceca02f814d.svg",
     "static/media/camera.svg": "/reunion/static/media/camera.55ae859020a67c5d03dc89d589ed8eee.svg",
-    "main.de3f4f38.css.map": "/reunion/static/css/main.de3f4f38.css.map",
-    "main.091f5537.js.map": "/reunion/static/js/main.091f5537.js.map",
+    "main.ccdd6a1e.css.map": "/reunion/static/css/main.ccdd6a1e.css.map",
+    "main.afe5015d.js.map": "/reunion/static/js/main.afe5015d.js.map",
     "787.74de9c21.chunk.js.map": "/reunion/static/js/787.74de9c21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de3f4f38.css",
-    "static/js/main.091f5537.js"
+    "static/css/main.ccdd6a1e.css",
+    "static/js/main.afe5015d.js"
   ]
 }
