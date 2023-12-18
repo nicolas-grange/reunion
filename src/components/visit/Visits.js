@@ -7,10 +7,11 @@ import {ReactComponent as CameraSvg} from '../../assets/camera.svg';
 
 const Visits = ({map}) => {
   const {visits} = useContext(VisitsContext);
-  const {showVisits} = useContext(MapActionsContext);
+  const {showVisits, shouldBeDisplayed} = useContext(MapActionsContext);
   const navigate = useNavigate();
 
   useEffect(() => {
+    if (!shouldBeDisplayed()) return;
     if (map.current.loaded()) {
       showVisits(map, visits, navigate);;
     } else {

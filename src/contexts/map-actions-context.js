@@ -85,6 +85,14 @@ const getZoom = () => {
   }
   return zoom;
 }
+
+const shouldBeDisplayed = () => {
+  if (window.matchMedia('(min-width: 600px)').matches) {
+    return true;
+  }
+  return false;
+}
+
 /*****
  * USEFUL FUNCTIONS
  *****/
@@ -349,6 +357,7 @@ export const mapActions = {
   showVisits: showVisits,
   selectVisit: selectVisit,
   getZoom: getZoom,
+  shouldBeDisplayed: shouldBeDisplayed,
 };
 
 export const MapActionsContext = React.createContext(mapActions);

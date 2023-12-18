@@ -25,6 +25,13 @@
     grid-area: map;
     height: 480px;
     min-height: 480px;
+    display: none;
+  }
+
+  @media screen and (min-width: 600px) {
+    .map-container {
+      display: block;
+    }
   }
 
   @media screen and (min-width: 1000px) {

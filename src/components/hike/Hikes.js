@@ -9,10 +9,11 @@ import {ReactComponent as TimeSvg} from '../../assets/time.svg';
 
 const Hikes = ({map}) => {
   const {hikes} = useContext(HikesContext);
-  const {showHikes} = useContext(MapActionsContext);
+  const {showHikes, shouldBeDisplayed} = useContext(MapActionsContext);
   const navigate = useNavigate();
 
   useEffect(() => {
+    if (!shouldBeDisplayed()) return;
     if (map.current.loaded()) {
       showHikes(map, hikes, navigate);
     } else {

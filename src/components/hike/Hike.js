@@ -8,12 +8,13 @@ import {MapActionsContext} from "../../contexts/map-actions-context";
 
 const Hike = ({map}) => {
   const {hikes, getHikeById} = useContext(HikesContext);
-  const {selectHike} = useContext(MapActionsContext);
+  const {selectHike, shouldBeDisplayed} = useContext(MapActionsContext);
   const {hikeId} = useParams();
   const navigate = useNavigate();
   const hike = getHikeById(hikeId);
 
   useEffect(() => {
+    if (!shouldBeDisplayed()) return;
     if (!hike) {
       return;
     }

@@ -10,9 +10,10 @@ mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 const Map = ({map}) => {
   const mapContainer = useRef(null);
-  const {getZoom} = useContext(MapActionsContext);
+  const {getZoom, shouldBeDisplayed} = useContext(MapActionsContext);
 
   useEffect(() => {
+    if (!shouldBeDisplayed()) return;
     if (map.current) return;
     const zoom = getZoom();
     map.current = new mapboxgl.Map({

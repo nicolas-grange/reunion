@@ -11,6 +11,7 @@ import {v9_saint_denis} from "../data/visits/9_saint_denis";
 import {v10_petite_ile} from "../data/visits/10_petite_ile";
 import {v11_kelonia} from "../data/visits/11_kelonia";
 import {v12_jardin_parfum_epices} from "../data/visits/12_jardin_parfums_epices";
+import {v13_labyrinthe_en_champ_the} from "../data/visits/13_labyrinthe_en_champ_the";
 
 const visits = [
   v1_maison_curcuma,
@@ -24,7 +25,8 @@ const visits = [
   v9_saint_denis,
   v10_petite_ile,
   v11_kelonia,
-  v12_jardin_parfum_epices
+  v12_jardin_parfum_epices,
+  v13_labyrinthe_en_champ_the
 ];
 
 const getVisitById = (visitId) => {
@@ -32,7 +34,7 @@ const getVisitById = (visitId) => {
 };
 
 export const visitsContext = {
-  visits: visits,
+  visits: visits.reverse(),
   getVisitById: getVisitById
 };
 

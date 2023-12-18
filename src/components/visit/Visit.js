@@ -8,12 +8,13 @@ import {VisitsContext} from "../../contexts/visits-context";
 
 const Visit = ({map}) => {
   const {visits, getVisitById} = useContext(VisitsContext);
-  const {selectVisit} = useContext(MapActionsContext);
+  const {selectVisit, shouldBeDisplayed} = useContext(MapActionsContext);
   const {visitId} = useParams();
   const navigate = useNavigate();
   const visit = getVisitById(visitId);
 
   useEffect(() => {
+    if (!shouldBeDisplayed()) return;
     if (!visit) {
       return;
     }

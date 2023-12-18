@@ -15,6 +15,9 @@ import {h13_entre_deux_sentier_jacky_inard} from "../data/hikes/13_entre_deux_se
 import {h14_cilaos_bras_rouge_bassin_alfred} from "../data/hikes/14_cilaos_bras_rouge_bassin_alfred";
 import {h15_cilaos_bras_sec_puy_maillot_cilaos_centre} from "../data/hikes/15_cilaos_bras_sec_puy_maillot_cilaos_centre";
 import {h16_sainte_rose_anse_cascade_notre_dame_des_laves} from "../data/hikes/16_sainte_rose_anse_cascade_notre_dame_des_laves";
+import {h17_saline_les_bains_saint_leu} from "../data/hikes/17_saline_les_bains_saint_leu";
+import {h18_cilaos_grand_tour_palmiste_rouge} from "../data/hikes/18_cilaos_grand_tour_palmiste_rouge";
+import {h19_saint_gilles_3_bassins} from "../data/hikes/19_saint_gilles_3_bassins";
 
 const hikes = [
   h1_fournaise_dolomieu,
@@ -32,7 +35,10 @@ const hikes = [
   h13_entre_deux_sentier_jacky_inard,
   h14_cilaos_bras_rouge_bassin_alfred,
   h15_cilaos_bras_sec_puy_maillot_cilaos_centre,
-  h16_sainte_rose_anse_cascade_notre_dame_des_laves
+  h16_sainte_rose_anse_cascade_notre_dame_des_laves,
+  h17_saline_les_bains_saint_leu,
+  h18_cilaos_grand_tour_palmiste_rouge,
+  h19_saint_gilles_3_bassins
 ];
 
 const getHikeById = (hikeId) => {
