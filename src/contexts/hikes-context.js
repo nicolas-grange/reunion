@@ -18,6 +18,10 @@ import {h16_sainte_rose_anse_cascade_notre_dame_des_laves} from "../data/hikes/1
 import {h17_saline_les_bains_saint_leu} from "../data/hikes/17_saline_les_bains_saint_leu";
 import {h18_cilaos_grand_tour_palmiste_rouge} from "../data/hikes/18_cilaos_grand_tour_palmiste_rouge";
 import {h19_saint_gilles_3_bassins} from "../data/hikes/19_saint_gilles_3_bassins";
+import {h20_cascade_biberon} from "../data/hikes/20_cascade_biberon";
+import {h21_grand_etang} from "../data/hikes/21_grand_etang";
+import {h22_mafate_roche_verre_bouteille} from "../data/hikes/22_mafate_roche_verre_bouteille";
+import {h23_mafate_riviere_galets} from "../data/hikes/23_mafate_riviere_galets";
 
 const hikes = [
   h1_fournaise_dolomieu,
@@ -38,7 +42,11 @@ const hikes = [
   h16_sainte_rose_anse_cascade_notre_dame_des_laves,
   h17_saline_les_bains_saint_leu,
   h18_cilaos_grand_tour_palmiste_rouge,
-  h19_saint_gilles_3_bassins
+  h19_saint_gilles_3_bassins,
+  h20_cascade_biberon,
+  h21_grand_etang,
+  h22_mafate_roche_verre_bouteille,
+  h23_mafate_riviere_galets
 ];
 
 const getHikeById = (hikeId) => {
