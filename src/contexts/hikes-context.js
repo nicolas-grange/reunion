@@ -22,6 +22,9 @@ import {h20_cascade_biberon} from "../data/hikes/20_cascade_biberon";
 import {h21_grand_etang} from "../data/hikes/21_grand_etang";
 import {h22_mafate_roche_verre_bouteille} from "../data/hikes/22_mafate_roche_verre_bouteille";
 import {h23_mafate_riviere_galets} from "../data/hikes/23_mafate_riviere_galets";
+import {h24_cilaos_roche_merveilleuse_bassin_bleu} from "../data/hikes/24_cilaos_roche_merveilleuse_bassin_bleu";
+import {h25_cilaos_bras_rouge_bassin_roche} from "../data/hikes/25_cilaos_bras_rouge_bassin_roche";
+import {h26_piton_des_neiges} from "../data/hikes/26_piton_des_neiges";
 
 const hikes = [
   h1_fournaise_dolomieu,
@@ -46,7 +49,10 @@ const hikes = [
   h20_cascade_biberon,
   h21_grand_etang,
   h22_mafate_roche_verre_bouteille,
-  h23_mafate_riviere_galets
+  h23_mafate_riviere_galets,
+  h24_cilaos_roche_merveilleuse_bassin_bleu,
+  h25_cilaos_bras_rouge_bassin_roche,
+  h26_piton_des_neiges
 ];
 
 const getHikeById = (hikeId) => {

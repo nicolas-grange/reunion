@@ -13,6 +13,7 @@ import {v11_kelonia} from "../data/visits/11_kelonia";
 import {v12_jardin_parfum_epices} from "../data/visits/12_jardin_parfums_epices";
 import {v13_labyrinthe_en_champ_the} from "../data/visits/13_labyrinthe_en_champ_the";
 import {v14_jardin_tortues} from "../data/visits/14_jardin_tortues";
+import {v15_canyoning_bassin_boeuf} from "../data/visits/15_canyoning_bassin_boeuf";
 
 const visits = [
   v1_maison_curcuma,
@@ -28,7 +29,8 @@ const visits = [
   v11_kelonia,
   v12_jardin_parfum_epices,
   v13_labyrinthe_en_champ_the,
-  v14_jardin_tortues
+  v14_jardin_tortues,
+  v15_canyoning_bassin_boeuf
 ];
 
 const getVisitById = (visitId) => {
