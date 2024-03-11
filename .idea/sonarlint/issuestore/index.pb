@@ -80,8 +80,6 @@ I
 src/components/map/Map.js,b/7/b7ee5c1a63bd0057f1f02013112d10f4c0c18cb8
 <
 src/App.scss,b/c/bcada58bc91793cb9a75454562c527c157dc0cd9
-S
-#src/contexts/map-actions-context.js,c/0/c0c023d2266049ddad747fbf773676d9a3a7fbbe
 a
 1src/data/hikes/3_saint_philippe_plage_tremblet.js,5/9/5931bf7c5e991ed323d0d4f3571eb6eb12118250
 ]
@@ -94,3 +92,15 @@ _
 /src/data/hikes/17_saline_les_bains_saint_leu.js,a/e/aee49430d18e2954aac25c58f7ee3fea466dde26
 R
 "src/data/hikes/6_maido_glaciere.js,4/1/41a3c32e1cfb7e7e53e9bb3e91ee4669decf3373
+P
+ src/data/hikes/21_grand_etang.js,c/a/cacd5abd05ecf128017aeecb227e6017dd1955ae
+a
+1src/data/hikes/22_mafate_roche_verre_bouteille.js,9/a/9a6a650c01d6e41687a02be5c0de13cddd436ddc
+T
+$src/data/hikes/20_cascade_biberon.js,e/3/e3d2fe3eaaf4f8b9adecabf9f22c5c1d1bae52a8
+Z
+*src/data/hikes/23_mafate_riviere_galets.js,9/2/9217051ce402175ac42939b411f2cd626d5119ab
+M
+src/contexts/hikes-context.js,1/6/16223b89578a219b53c4c2d0f5fcbe99075354e4
+e
+5src/data/hikes/18_cilaos_grand_tour_palmiste_rouge.js,2/d/2d56fc43ec00b6448403c2e6477632d854883f58
